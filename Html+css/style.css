@@ -1,0 +1,158 @@
+.body{
+    background-repeat: repeat;
+    background-color: white;;
+}
+
+
+.header{
+    padding: 0%;
+    border: 0%;
+    background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;;
+    text-align: center;
+}
+
+#login_button{
+    border: none;
+    color:none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    outline: none;
+
+}
+
+#join_button{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.block{
+    background-color:whitesmoke ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.context{
+    display: grid;
+    padding: 20px;
+    border: 10px;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+
+.title{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-weight: bolder;
+}
+
+.txt{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-weight: normal;
+}
+
+.title_2{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-weight: bold;
+}
+
+.block_btn{
+    border-color: violet;
+    color:none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    outline: none;
+    height: 200%;
+    color: violet;
+    grid-row-start: 5;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-weight: bolder;
+}
+.block_btn_2{
+    border: none;
+    background-color: violet;
+    color: white;
+    height: 200%;
+    grid-row-start: 5;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-weight: bolder;
+}
+.picture img{
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+    padding: 10%;
+    border: 10%;
+    background: whitesmoke;
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+}
+.pro{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.lea{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.spa{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.MD{
+    text-align: center;
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+.abo{
+    grid-column-start: 7;
+    grid-column-end: 7;
+}
+.sci{
+    grid-column-start: 8;
+    grid-column-end: 8;
+}
+.sup{
+    grid-column-start: 9;
+    grid-column-end: 9;
+}
+.txt_2{
+    text-align: center;
+}
+.policy{
+    display: grid;    
+    grid-template-columns: repeat(4,1fr);
+}
+
+.ter{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.pri{
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.she{
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.policy img{ 
+    height: 250%;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    text-align: right;
+}
+
